@@ -134,7 +134,7 @@ header {
 .search__submit {
     width: 30px;
     height: 30px;
-    background: url(/img/search.png) no-repeat;
+    background: url(../img/search.png) no-repeat;
     background-position: center;
     background-size: cover;
     border: none;
@@ -179,7 +179,6 @@ header {
         cursor: pointer;
     }
 }
-
 .header__box_right {
     position: relative;
     flex-grow: 1;
@@ -395,7 +394,7 @@ option {
 
 .exploere {
     max-width: 100%;
-    background-image: url(/img/bgr.png);
+    background-image: url(../img/bgr.png);
     background-repeat: no-repeat;
     background-size: cover;
     .row {
