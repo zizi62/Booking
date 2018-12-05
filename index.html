@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Gilda+Display" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Document</title>
+</head>
+<body>
+<header class="header">
+        <nav class="nav">
+                <div class="close__btn">&times;</div>
+                <a href="#" class="nav__link">About</a>
+                <a href="#" class="nav__link">Rooms</a>
+                <a href="#" class="nav__link">Services</a>
+                <a href="#" class="nav__link">Gallery</a>
+                <a href="#" class="nav__link">Contact</a>
+            </nav>
+    <div class="header__top">
+            
+        <ul class="mob__btn">
+            <li class="mob__btn_line"></li>
+            <li class="mob__btn_line"></li>
+            <li class="mob__btn_line"></li>
+        </ul>
+        <p class="logo">Airbooking</p>
+        <form action="" class="headerForm">
+            <input class="search" type="search">
+            <input class="search__submit" type="submit" value="">
+        </form>
+        
+    </div>
+
+    <div class="header__box">
+    <div class="header__box_right"><img src="img/Layer 1.png" alt="">
+    <div class="text-box">
+        <h2 class="title title_white">A Brand New Hotel<br>
+            Beyond Ordinary</h2>
+        <a href="" class="text-box__btn">Exploere IT</a>
+        <form class="checkavail"  oninput="countGuest.value = guest.value">
+            <div class="checkavail__item">
+                <label class="checkavailLabel" for="checkIn">check In</label>
+                <input class="checkavailInput checkavailInput__in" type="text" name="checkIn" id="checkIn" value ="">
+                <select class="checkavailSelect checkavailSelect__data"  name="" id="">
+                    <option value="January">Jan</option>
+                    <option value="February">Feb</option>
+                    <option value="March">Mar</option>
+                    <option value="April">Apr</option>
+                    <option value="May">May</option>
+                    <option value="June">Jun</option>
+                    <option value="July">Jul</option>
+                    <option value="August">Aug</option>
+                    <option value="September">Sep</option>
+                    <option value="October">Oct</option>
+                    <option value="November">Nov</option>
+                    <option value="December">Dec</option>
+                </select>
+                
+            </div>
+            <div class="checkavail__item">
+                    <label class="checkavailLabel"   for="checkOut">check Out</label>
+                    <input class="checkavailInput checkavailInput__out" type="text" name="checkOut" id="checkOut">
+                    <select class="checkavailSelect checkavailSelect__data" name="" id="">
+                            <option value="January">Jan</option>
+                            <option value="February">Feb</option>
+                            <option value="March">Mar</option>
+                            <option value="April">Apr</option>
+                            <option value="May">May</option>
+                            <option value="June">Jun</option>
+                            <option value="July">Jul</option>
+                            <option value="August">Aug</option>
+                            <option value="September">Sep</option>
+                            <option value="October">Oct</option>
+                            <option value="November">Nov</option>
+                            <option value="December">Dec</option>
+                        </select>
+            </div>
+            <div class="checkavail__item">
+                    <label class="checkavailLabel" for="guest">Guest</label>
+                    <output class="checkavailInput " name="countGuest">1</output>
+                    <select class="checkavailSelect checkavailSelect__guest" name="guest" id="">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                        </select>
+            </div>
+            <div class="checkavail__item  checkavail__item_down">
+                <button class="checkavailInput checkavailInput__submit" type="submit" value="CHECK  AVAILABILITY">CHECK  AVAILABILITY</button>
+            </div>
+        </form>
+    </div>
+    </div>
+    <div class="header__box_left">
+        <div class="socials">
+                <a class="socials__item" href=""><i class="fab fa-facebook-f 3x"></i></a>
+                <a class="socials__item"  href=""><i class="fab fa-twitter 3x"></i></a>
+                <a class="socials__item"  href=""><i class="fab fa-linkedin-in 3x"></i></a>
+                <a class="socials__item"  href=""><i class="fab fa-instagram 3x"></i></a>
+        </div>
+    </div>
+</div>
+
+</header>
+<div class="rooms">
+    <h2 class="title">OUR ROOMS</h2>
+    <div class="container">
+    <div class="row">
+        <div class="room-box">
+            <div class="roomItem">
+                <img src="img/Layer 17.png" alt="">
+                <div class="roomItem__context">
+                    <a href="#" class="roomItem__btn">Family Room</a>
+                    <span class="roomItem__price">FROM 30$</span>
+                </div>
+            </div>
+            <div class="roomItem">
+                 <img src="img/Layer 18.png" alt="">
+                <div class="roomItem__context">
+                    <a href="#" class="roomItem__btn">Luxary Room</a>
+                    <span class="roomItem__price">FROM 30$</span>
+                </div>
+            </div>
+            <div class="roomItem">
+                 <img src="img/Layer 3.png" alt="">
+                <div class="roomItem__context">
+                    <a href="#" class="roomItem__btn">Single Room</a>
+                    <span class="roomItem__price">FROM 30$</span>
+                </div>
+            </div>
+            <div class="roomItem">
+                <img src="img/Layer 14.png" alt="">
+                <div class="roomItem__context">
+                    <a href="#" class="roomItem__btn">Double Room</a>
+                    <span class="roomItem__price">FROM 30$</span>
+                 </div>
+            </div>
+            <div class="roomItem">
+                    <img src="img/Layer 15.png" alt="">
+                    <div class="roomItem__context">
+                    <a href="#" class="roomItem__btn">Family Room</a>
+                    <span class="roomItem__price">FROM 30$</span>
+                </div>
+            </div>
+            <div class="roomItem">
+                <img src="img/Layer 16.png" alt="">
+                <div class="roomItem__context">
+                    <a href="#" class="roomItem__btn">Family Room</a>
+                    <span class="roomItem__price">FROM 30$</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="exploere">
+    <div class="container">
+        <div class="row">
+            <div class="exploere__img"><img src="img/Layer 5.png" alt=""></div>
+            <div class="exploere__content">
+                <h3 class = "exploere__content_title">Explorer Your Best Room</h3>
+                <p class = "exploere__content_text">Phasellus enim libero, blandit vel sapien vitae, 
+                    condimentum ultricies magna et. Quisque euismod orci ut et lobortis. 
+                    Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. 
+                    Quisque euismod orci ut et lobortis. Phasellus enim libero.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="services">
+        <h2 class="title">Our Services</h2>
+    <div class="container">
+        <div class="row">
+                <div class="services__box">
+            <div class="servisItem">
+                    <div class="servisItem__img"><img src="img/3.png" alt="" ></div>
+                <h4 class="servisItem__title">Restaurant</h4>
+                <p class="servisItem__text">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et.
+                     Quisque euismod orci ut et lobortis.</p>
+            </div>
+            <div class="servisItem">
+                    <div class="servisItem__img"><img src="img/2.png" alt="" ></div>
+                <h4 class="servisItem__title">Sports Club</h4>
+                <p class="servisItem__text">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. 
+                    Quisque euismod orci ut et lobortis.</p>
+            </div>
+            <div class="servisItem">
+                <div class="servisItem__img"><img src="img/.png" alt="" ></div>
+                <h4 class="servisItem__title">Pick up</h4>
+                <p class="servisItem__text">Phasellus enim libero, blandit vel sapien vitae, condimentum ultricies magna et. 
+                    Quisque euismod orci ut et lobortis.</p>
+            </div>
+        </div> 
+        
+        </div>
+    </div>
+</div>
+<div class="findBest">
+    <div class="findBest-box">
+    <div class="findBest__img"><img src="img/Layer 7.png" alt=""></div>
+    <div class="findBest__content">
+        <p class="findBest__title">Find Your <br> Best Room Here</p>
+        <p class="findBest__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+            doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis 
+            et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia 
+            voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui 
+            ratione voluptatem sequi nesciunt. 
+            <br>
+            <br>
+
+                Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam.</p>
+        <a href="" class="findBest__text_btn">Read More</a>
+    </div>
+    </div>
+</div>
+<div class="review">
+        <h2 class="title">From The Guest</h2>
+        <div class="slider__container">
+            <div class="sliderItem sliderItem_active">
+                <p class="sliderItem__text ">Sed ut perspiciatis unde omnis 
+                    iste natus error sit voluptatem accusantium doloremque laudantium, 
+                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et 
+                    quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam 
+                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
+                    consequuntur magni 
+                    dolores eos qui ratione voluptatem sequi nesciunt.
+                </p>
+                <div class="reviewAutor">
+                        <div class="reviewAutor__img"><img src="img/Layer 8.png" alt=""></div>
+                        <div class="reviewAutor__text">
+                            <h3>Andrew Strauss</h3>
+                            <p>From New York, USA</p>
+                        </div>
+                </div>
+            </div> 
+            <div class="sliderItem">
+                    <p class="sliderItem__text ">Sed ut perspiciatis unde omnis 
+                        iste natus error sit voluptatem accusantium doloremque laudantium, 
+                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et 
+                        quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam 
+                        voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
+                        consequuntur magni 
+                        dolores eos qui ratione voluptatem sequi nesciunt.
+                    </p>
+                    <div class="reviewAutor">
+                            <div class="reviewAutor__img"><img src="img/woman-skazka.jpg" alt=""></div>
+                            <div class="reviewAutor__text">
+                                <h3>Andrew Strauss</h3>
+                                <p>From New York, USA</p>
+                            </div>
+                    </div>
+                </div> 
+                <div class="sliderItem">
+                        <p class="sliderItem__text ">Sed ut perspiciatis unde omnis 
+                            iste natus error sit voluptatem accusantium doloremque laudantium, 
+                            totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et 
+                            quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam 
+                            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
+                            consequuntur magni sed quia 
+                            consequuntur magni sed quia 
+                            consequuntur magni 
+                            dolores eos qui ratione voluptatem sequi nesciunt.
+                        </p>
+                        <div class="reviewAutor">
+                                <div class="reviewAutor__img"><img src="img/124775_big.jpg" alt=""></div>
+                                <div class="reviewAutor__text">
+                                    <h3>Andrew Strauss</h3>
+                                    <p>From New York, USA</p>
+                                </div>
+                        </div>
+                    </div>      
+                <a class="btn prev" data-target="prev">&#10094;</a>
+                <a class="btn next" data-target="next">&#10095;</a>
+        </div>
+</div>
+<div class="news">
+    <h2 class="title">Latest News</h2>
+    <div class="container">
+        <div class="row">
+            <div class="newsBox">
+                <div class="newsItem">
+                    <div class="newsItem__top"><img src="img/Layer 18.png" alt="" class="newsItem__img"></div>
+                    <div class="newsItem__dowm newsItem__dowm_content">
+                    
+                    <h4>This is a slider post </h4>
+                    <p class="newsItem__data">June 18, 2018</p>
+                    <p class="newsItem__text">Phasellus enim libero, blandit vel sapien vitae, condimentum 
+                    ultricies magna et. 
+                    Quisque euismod orci ut et lobortis.</p>
+                    <a href="" class="newsItem__btn">Read More</a>
+                    </div>
+                </div>
+                <div class="newsItem  newsItem__last">
+                        <div class="newsItem__top"><img src="img/Layer 18.png" alt="" class="newsItem__img">
+                        <div class="newsItem__top_text">
+                            <h4>This is a slider post </h4>
+                            <p class="newsItem__data">June 18, 2018</p>
+                        </div>
+                    </div>
+                    <div class="newsItem__dowm">
+                        <img src="img/Layer 18.png" alt="" class="newsItem__img">
+                        <div class="newsItem__top_text">
+                            <h4>This is a slider post </h4>
+                            <p class="newsItem__data">June 18, 2018</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="newsItem">
+                        <div class="newsItem__top"><img src="img/Layer 18.png" alt="" class="newsItem__img"></div>
+                        <div class="newsItem__dowm newsItem__dowm_content">
+                        <h4>This is a slider post </h4>
+                        <p class="newsItem__data">June 18, 2018</p>
+                        <p class="newsItem__text">Phasellus enim libero, blandit vel sapien vitae, condimentum 
+                        ultricies magna et. 
+                        Quisque euismod orci ut et lobortis.</p>
+                        <a href="" class="newsItem__btn">Read More</a>
+                        </div>
+                 </div>
+               
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footerBox">
+                <div class="footerItem footerItem__contact">
+                    <p class="logo">Airbooking</p>
+                    <p class="footerItem__text">Lorem ipsum dolor sit amet, conser adipiscing elit. 
+                        In consectetur tincidunt dolor.</p>
+                        <div class="contact">
+                            <div class="contact__item">
+                                <div class="icon"><img src="img/loc.png" alt=""></div>
+                                <p>2345  Lyon Avenue <br>
+                                    Boston, MA, Massachusetts
+                                </p>
+                            </div>
+                            <div class="contact__item">
+                                    <div class="icon"><img src="img/ph.png" alt=""></div>
+                                <p>
+                                       508-960-5584 <br>
+                                        857-366-4240
+                                </p>
+                            </div>
+                        </div>
+                </div>
+                <div class="footerItem footerItem__link">
+                    <h3>Quick Links</h3>
+                    <ul class="links">
+                        <li><a href="#" class="link__item">Accomodation</a></li>
+                        <li><a href="#" class="link__item">Food & Drinks</a></li>
+                        <li><a href="#" class="link__item">Beach Venues</a></li>
+                        <li><a href="#" class="link__item">Amenities</a></li>
+                        <li><a href="#" class="link__item">Noordwijk</a></li>
+                        <li><a href="#" class="link__item">Wellness</a></li>
+                        <li><a href="#" class="link__item">Manifesto</a></li>
+                    </ul>
+                </div>
+                <div class="footerItem footerItem__social">
+                    <h3>Connect With Us</h3>
+                    <div class="socials">
+                            <a class="socials__item socials__item_line" href=""><i class="fab fa-facebook-f 3x"></i></a>
+                            <a class="socials__item socials__item_line"  href=""><i class="fab fa-twitter 3x"></i></a>
+                            <a class="socials__item socials__item_line"  href=""><i class="fab fa-linkedin-in 3x"></i></a>
+                            <a class="socials__item socials__item_line"  href=""><i class="fab fa-instagram 3x"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottomline"> © 2018 Airbooking - All Rights Reserved </div>
+</footer>
+<script src="js/slider.js"></script>
+<script src="js/mobMenu.js"></script>
+<script src="js/data.js"></script>
+</body>
+</html>
